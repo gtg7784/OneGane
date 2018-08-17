@@ -1,0 +1,228 @@
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+	overflow-y: scroll;
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+/*head end*/
+
+.logo {
+    position: absolute;
+    background-image: url(../img/logo.png);
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+.menu li {
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.menu-style {
+    list-style-type: none;
+    font-size: 15px;
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: bold;
+}
+
+.barogagi-button {
+    background-color: #485563;
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+    margin-left: 46%;
+    text-align: center;
+    line-height: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+header .center-message {    
+    padding: 7rem 10em 0 13rem;
+    text-align: center;
+    color: black;
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.foo-line {
+    background-color: black;
+    margin-left: 18%;
+    margin-top: 3%;
+    width: 64%;
+    height: 1px;
+}
+
+.hackathon-banner {
+    width: 15%;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 18%;
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.06),0 1px 5px rgba(0,0,0,0.12);
+}
+
+.banner-text {
+    font-size: 15px;
+    margin-left: 28%;
+    margin-top: -5%;
+    font-weight: 500;
+}
+
+.banner-lf {
+    margin-left: -32%;
+    font-weight: 100;
+}
+
+.banner-button1 {
+    border-radius: 50px;
+    /* background-color: #005bea; */
+    background-color: #434343;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    line-height: 23px;
+    color: white;
+    font-size: 10pt;
+}
+.banner-button2 {
+    margin-top: 15px;
+    border-radius: 50px;
+    background-color: #fee140;
+    width: 100px;   
+    height: 25px;
+    text-align: center;
+    line-height: 23px;
+    color: white;
+    font-size: 10pt;
+    font-weight: 100;
+}
+
+.hackathon-banner1 {
+    width: 15%;
+    height: 250px;
+    margin-top: -16.3%;
+    margin-left: 35%;
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.06),0 1px 5px rgba(0,0,0,0.12);
+}
+
+.banner-button3 {
+    border-radius: 50px;
+    /* background-color: #005bea; */
+    background-color: #434343;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    line-height: 23px;
+    color: white;
+    font-size: 10pt;
+}
+.banner-button4 {
+    margin-top: 15px;
+    border-radius: 50px;
+    background-color: #fee140;
+    width: 100px;   
+    height: 25px;
+    text-align: center;
+    line-height: 23px;
+    color: white;
+    font-size: 10pt;
+    font-weight: 100;
+}
+
+.hackathon-banner2 {
+    width: 15%;
+    height: 250px;
+    margin-top: -16.3%;
+    margin-left: 52%;
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.06),0 1px 5px rgba(0,0,0,0.12);
+}
+
+.banner-button5 {
+    border-radius: 50px;
+    background-color: #005bea;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    line-height: 23px;
+    color: white;
+    font-size: 10pt;
+}
+.banner-button6 {
+    margin-top: 15px;
+    border-radius: 50px;
+    background-color: #fee140;
+    width: 100px;   
+    height: 25px;
+    text-align: center;
+    line-height: 23px;
+    color: white;
+    font-size: 10pt;
+    font-weight: 100;
+}
+
+.hackathon-banner3 {
+    width: 15%;
+    height: 250px;
+    margin-top: -16.3%;
+    margin-left: 69%;
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.06),0 1px 5px rgba(0,0,0,0.12);
+}
+
+.banner-button7 {
+    border-radius: 50px;
+    /* background-color: #005bea; */
+    background-color: #005bea;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    line-height: 23px;
+    color: white;
+    font-size: 10pt;
+}
+.banner-button8 {
+    margin-top: 15px;
+    border-radius: 50px;
+    background-color: #fee140;
+    width: 100px;   
+    height: 25px;
+    text-align: center;
+    line-height: 23px;
+    color: white;
+    font-size: 10pt;
+    font-weight: 100;
+}
+
+.all-background {
+    margin-top: -15px;
+    position: absolute;
+    background-image: url(../img/all-background.png);
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    z-index: -1;
+}
